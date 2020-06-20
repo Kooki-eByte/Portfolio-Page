@@ -1,7 +1,23 @@
 
 
-@media (max-width: 768px) {
-    body {
-        background-color: purple;
+/* Header */
+.title {
+    text-align: center;
+}
+
+.hor-line {
+
+}
+
+img {
+    height: 350px;
+    width: 350px;
+}
+
+
+/* ETC */
+@media (max-width: 640px) {
+    h1 {
+        text-align: center;
     }
 }
