@@ -60,6 +60,15 @@ img {
     border: 2px solid #343a40;
 }
 
+.card {
+    font-weight: 900;
+    font-family: 'Poiret One', cursive;
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3)
+}
+
 /* Footer */
 footer {
     width: 100%;
