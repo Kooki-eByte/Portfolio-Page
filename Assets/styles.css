@@ -2,6 +2,7 @@
 body {
     background-color: #dbdbdb;
     margin: 0;
+    margin-bottom: 60px;
     padding: 0;
 }
 /* NavBar */
@@ -71,6 +72,7 @@ img {
 
 /* Footer */
 footer {
+    position: absolute;
     width: 100%;
     background-color: #343a40;
     color: #fff;
