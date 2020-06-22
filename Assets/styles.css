@@ -112,3 +112,10 @@ footer {
     padding: 25px 0px;
     border-top: 6px solid #808D9A;
 }
+
+/* ETC */
+@media only screen and (max-width: 991px) {
+    #border-control {
+        border: 0px;
+    }
+}
