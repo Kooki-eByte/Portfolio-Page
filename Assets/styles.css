@@ -1,11 +1,15 @@
+/* ! Alert */
+/* * Highlight */
+/* ? Code to look over */
 
+/* * Everything Outside of the container */
 body {
     background-color: #dbdbdb;
     margin: 0;
     margin-bottom: 60px;
     padding: 0;
 }
-/* NavBar */
+/* * NavBar */
 #border-control {
     border-left: 1px solid #b1b1b1c0;
     border-right: 1px solid #b1b1b1c0;
@@ -15,7 +19,7 @@ nav {
     font-family: 'Abril Fatface', cursive;
 }
 
-/* Header */
+/* * Header */
 #title {
     text-align: center;
     color: #fff;
@@ -42,7 +46,7 @@ nav {
     color: aquamarine;
 }
 
-/* main */
+/* * main */
 #main-section {
     font-family: 'Poiret One', cursive;
 }
@@ -52,6 +56,7 @@ nav {
     font-weight: 900;
 }
 
+/* * Placement for Social Media Text */
 #soc-media {
     font-weight: 900;
     line-height: 20px;
@@ -59,6 +64,7 @@ nav {
     text-align: center;
 }
 
+/* * Set color for social media buttons */
 .btn-git {
     color: #343a40;
 }
@@ -71,17 +77,13 @@ nav {
     color: #343a40;
 }
 
+/* * Changes color to the Soc. Media buttons when mosue hovers over */
 .btn-git:hover{
     color: black;
 }
 
 .btn-so:hover {
     color: orange;
-}
-
-
-.hor-line {
-    height: 5px;
 }
 
 img {
@@ -99,10 +101,12 @@ img {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3)
 }
 
+/* * Social media buttons aligned to the center of its row */
 .inner-social-media {
     text-align: center;
 }
-/* Footer */
+
+/* * Footer */
 footer {
     position: absolute;
     width: 100%;
@@ -114,7 +118,7 @@ footer {
     margin-top: 40vh;
 }
 
-/* ETC */
+/* * ETC */
 @media only screen and (max-width: 991px) {
     #border-control {
         border: 0px;
